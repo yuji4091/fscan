@@ -5,3 +5,6 @@ fscan.exe
 fscan
 makefile
 fscanapi.csv
+
+# Ignore project-specific automation files or directories
+.automate
