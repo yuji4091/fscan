@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "Bash(go mod:*)",
+      "Bash(go build:*)",
+      "Bash(.fscan.exe:*)",
+      "Bash(./fscan.exe --help)",
+      "Bash(./fscan.exe:*)",
+      "Bash(chmod:*)",
+      "Bash(powershell:*)",
+      "Bash(dir:*)",
+      "Bash(grep:*)",
+      "Bash(go run:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
