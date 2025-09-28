@@ -1,0 +1,19 @@
+You have 5 MCP servers configured in VS Code:
+
+• github
+  Command: undefined
+
+• notion
+  Command: npx
+  Args: -y @notionhq/notion-mcp-server
+
+• zapier
+  Command: undefined
+
+• playwright
+  Command: npx
+  Args: @playwright/mcp@latest
+
+• upstash/context7
+  Command: undefined
+
