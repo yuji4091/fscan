@@ -1,6 +1,6 @@
 module github.com/shadow1ng/fscan
 
-go 1.22
+go 1.25
 
 require (
 	github.com/IBM/sarama v1.43.3
