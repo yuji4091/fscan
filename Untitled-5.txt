@@ -1,0 +1,40 @@
+{
+  "github": {
+    "url": "https://api.githubcopilot.com/mcp/",
+    "type": "http"
+  },
+  "notion": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "@notionhq/notion-mcp-server"
+    ],
+    "env": {
+      "OPENAPI_MCP_HEADERS": {
+        "Authorization": "Bearer ${input:NOTION_TOKEN}",
+        "Notion-Version": "2022-06-28"
+      }
+    },
+    "type": "stdio"
+  },
+  "zapier": {
+    "url": "https://api.zapier.com/v1/mcp/sse",
+    "type": "http"
+  },
+  "playwright": {
+    "command": "npx",
+    "args": [
+      "@playwright/mcp@latest"
+    ],
+    "type": "stdio"
+  },
+  "upstash/context7": {
+    "type": "http",
+    "url": "https://mcp.context7.com/mcp",
+    "headers": {
+      "undefined": "{context7_api_key}"
+    },
+    "gallery": "https://api.mcp.github.com/v0/servers/dcec7705-b81b-4e0f-8615-8032604be7ad",
+    "version": "1.0.0"
+  }
+}

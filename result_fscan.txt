@@ -1,0 +1,36 @@
+[2025-09-21 23:42:59] [HOST] 目标:192.168.0.146 状态:alive 详情:protocol=ICMP
+[2025-09-21 23:43:00] [HOST] 目标:192.168.0.132 状态:alive 详情:protocol=ICMP
+[2025-09-21 23:43:02] [PORT] 目标:192.168.0.146 状态:open 详情:port=445
+[2025-09-21 23:43:02] [PORT] 目标:192.168.0.146 状态:open 详情:port=139
+[2025-09-21 23:43:02] [PORT] 目标:192.168.0.146 状态:open 详情:port=135
+[2025-09-21 23:43:05] [SERVICE] 目标:192.168.0.146 状态:identified 详情:hostname=kenchan, ipv4=[172.27.48.1 192.168.0.146], ipv6=[2001:e68:5f19:6600:7886:2c5d:f01:f263 2001:e68:5f19:6600:2f:b426:4963:2d15]
+[2025-09-21 23:57:45] [HOST] 目标:192.168.0.146 状态:alive 详情:protocol=ICMP
+[2025-09-21 23:57:46] [HOST] 目标:192.168.0.1 状态:alive 详情:protocol=ICMP
+[2025-09-21 23:57:46] [HOST] 目标:192.168.0.123 状态:alive 详情:protocol=ICMP
+[2025-09-21 23:57:46] [HOST] 目标:192.168.0.126 状态:alive 详情:protocol=ICMP
+[2025-09-21 23:57:47] [HOST] 目标:192.168.0.201 状态:alive 详情:protocol=ICMP
+[2025-09-21 23:57:47] [HOST] 目标:192.168.0.202 状态:alive 详情:protocol=ICMP
+[2025-09-21 23:57:48] [HOST] 目标:192.168.0.122 状态:alive 详情:protocol=ICMP
+[2025-09-21 23:57:48] [HOST] 目标:192.168.0.125 状态:alive 详情:protocol=ICMP
+[2025-09-21 23:57:48] [HOST] 目标:192.168.0.127 状态:alive 详情:protocol=ICMP
+[2025-09-21 23:57:48] [HOST] 目标:192.168.0.132 状态:alive 详情:protocol=ICMP
+[2025-09-21 23:57:48] [PORT] 目标:192.168.0.146 状态:open 详情:port=139
+[2025-09-21 23:57:48] [PORT] 目标:192.168.0.146 状态:open 详情:port=135
+[2025-09-21 23:57:48] [PORT] 目标:192.168.0.146 状态:open 详情:port=445
+[2025-09-21 23:57:49] [PORT] 目标:192.168.0.1 状态:open 详情:port=80
+[2025-09-21 23:57:49] [PORT] 目标:192.168.0.1 状态:open 详情:port=443
+[2025-09-21 23:57:51] [PORT] 目标:192.168.0.201 状态:open 详情:port=80
+[2025-09-21 23:57:51] [PORT] 目标:192.168.0.201 状态:open 详情:port=9100
+[2025-09-21 23:57:52] [PORT] 目标:192.168.0.202 状态:open 详情:port=80
+[2025-09-21 23:57:53] [PORT] 目标:192.168.0.202 状态:open 详情:port=9100
+[2025-09-21 23:57:57] [PORT] 目标:192.168.0.132 状态:open 详情:port=135
+[2025-09-21 23:57:57] [PORT] 目标:192.168.0.132 状态:open 详情:port=445
+[2025-09-21 23:57:57] [PORT] 目标:192.168.0.132 状态:open 详情:port=139
+[2025-09-21 23:57:57] [PORT] 目标:192.168.0.132 状态:open 详情:port=7680
+[2025-09-21 23:58:00] [SERVICE] 目标:192.168.0.146 状态:identified 详情:hostname=kenchan, ipv4=[172.27.48.1 192.168.0.146], ipv6=[2001:e68:5f19:6600:7886:2c5d:f01:f263 2001:e68:5f19:6600:716a:259f:97ae:3a98]
+[2025-09-21 23:58:00] [SERVICE] 目标:192.168.0.201 状态:identified 详情:server_info=map[cache-control:no-cache connection:close content-type:text/html date:Thu, 01 Jan 1970 00:20:05 GMT length:140 pragma:no-cache server:HTTPD status_code:401 title:401 Unauthorized www-authenticate:Basic realm="USER LOGIN"], fingerprints=[], port=80, service=http, title=401 Unauthorized, Url=http://192.168.0.201, status_code=401, length=140
+[2025-09-21 23:58:00] [SERVICE] 目标:192.168.0.132 状态:identified 详情:ipv6=[2001:e68:5f19:6600:af4c:8316:5bdb:1637 2001:e68:5f19:6600:b568:bd0a:b1f6:acf4], hostname=DESKTOP-JJ91UKR, ipv4=[172.25.32.1 192.168.0.132]
+[2025-09-21 23:58:00] [SERVICE] 目标:192.168.0.202 状态:identified 详情:service=http, title=401 Unauthorized, Url=http://192.168.0.202, status_code=401, length=140, server_info=map[cache-control:no-cache connection:close content-type:text/html date:Thu, 01 Jan 1970 00:20:05 GMT length:140 pragma:no-cache server:HTTPD status_code:401 title:401 Unauthorized www-authenticate:Basic realm="USER LOGIN"], fingerprints=[], port=80
+[2025-09-21 23:58:00] [SERVICE] 目标:192.168.0.132 状态:identified 详情:workstation_service=DESKTOP-JJ91UKR, server_service=DESKTOP-JJ91UKR, port=139, domain_name=WORKGROUP
+[2025-09-21 23:58:00] [SERVICE] 目标:192.168.0.1 状态:identified 详情:Url=http://192.168.0.1, status_code=200, length=5344, server_info=map[accept-ranges:bytes cache-control:no-cache,no-store content-length:5344 content-security-policy:frame-ancestors 'self' content-type:text/html; charset=utf-8 length:5344 server:Mini web server 1.0. status_code:200 title:DIR-X1860Z x-frame-options:SAMEORIGIN], fingerprints=[], port=80, service=http, title=DIR-X1860Z
+[2025-09-21 23:58:01] [SERVICE] 目标:192.168.0.1 状态:identified 详情:Url=https://192.168.0.1, status_code=200, length=5344, server_info=map[accept-ranges:bytes cache-control:no-cache,no-store content-length:5344 content-security-policy:frame-ancestors 'self' content-type:text/html; charset=utf-8 length:5344 server:Mini web server 1.0. status_code:200 title:DIR-X1860Z x-frame-options:SAMEORIGIN], fingerprints=[], port=443, service=http, title=DIR-X1860Z
